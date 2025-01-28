@@ -97,14 +97,14 @@ class MainActivity : AppCompatActivity() {
             Log.e("Error", "addNewUser: $it")
         }) {
 
-            override fun getHeaders(): MutableMap<String, String> {
-                return super.getHeaders()
-
-                var data : MutableMap<String,String> = mutableMapOf()
-
-                data.put("x-rapidapi-key", "d8f7cda0bamshbc4d982d36cb16dp1e6fe5jsn32111f51b5bd")
-                data.put("x-rapidapi-host", "instagram-scraper-api2.p.rapidapi.com")
-            }
+//            override fun getHeaders(): MutableMap<String, String> {
+//                return super.getHeaders()
+//
+//                var data : MutableMap<String,String> = mutableMapOf()
+//
+//                data.put("x-rapidapi-key", "d8f7cda0bamshbc4d982d36cb16dp1e6fe5jsn32111f51b5bd")
+//                data.put("x-rapidapi-host", "instagram-scraper-api2.p.rapidapi.com")
+//            }
 
             override fun getParams(): MutableMap<String, String>? {
                 return super.getParams()
